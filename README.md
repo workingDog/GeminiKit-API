@@ -1,10 +1,13 @@
 # GeminiKit-API
 
 
-## Amendments
+## Original code
 
 A fork from [GeminiKit](https://github.com/guitaripod/GeminiKit) for my own requirements 
 of using only the API code.
+
+
+## Amendments
 
 Removed all CLI code, external dependencies, and restructured "GeminiModel" to a struct.
 Also minor mods to compile the Package with swift 6.2
@@ -17,7 +20,7 @@ See [GeminiKit](https://github.com/guitaripod/GeminiKit) "A comprehensive Swift 
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/workingDog/GeminiKit", from: "1.0.0")
+    .package(url: "https://github.com/workingDog/GeminiKit-API", from: "1.0.0")
 ]
 ```
 
@@ -48,4 +51,4 @@ for try await chunk in stream {
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see the original [LICENSE](LICENSE) file for details.
