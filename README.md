@@ -47,6 +47,9 @@ for try await chunk in stream {
 }
 ```
 
+See also the [SwiftUI Google Gemini AI demo App](https://github.com/workingDog/GoogleAI)
+
+
 ## License
 
 MIT License - see the original [LICENSE](LICENSE) file for details.
