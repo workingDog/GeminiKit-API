@@ -6,14 +6,12 @@
 A fork from [GeminiKit](https://github.com/guitaripod/GeminiKit) for my own requirements 
 of using only the API code.
 
+See [GeminiKit](https://github.com/guitaripod/GeminiKit) "A comprehensive Swift SDK for the Google Gemini API" for the original code. 
 
 ## Amendments
 
 Removed all CLI code, external dependencies, and restructured "GeminiModel" to a struct.
 Also minor mods to compile the Package with swift 6.2
-
-See [GeminiKit](https://github.com/guitaripod/GeminiKit) "A comprehensive Swift SDK for the Google Gemini API" for the original code. 
-
 
 ## Installation
 
