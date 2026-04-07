@@ -25,7 +25,7 @@ dependencies: [
 ## Quick Start
 
 ```swift
-import GeminiKit
+import GeminiKitAPI
 
 // Initialize
 let gemini = GeminiKit(apiKey: "YOUR_API_KEY")

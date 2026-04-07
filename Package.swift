@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "GeminiKit",
+    name: "GeminiKitAPI",
     platforms: [
         .macOS(.v13),
         .iOS(.v16),
@@ -11,8 +11,8 @@ let package = Package(
         .watchOS(.v9)
     ],
     products: [
-        .library(name: "GeminiKit", targets: ["GeminiKit"])],
+        .library(name: "GeminiKitAPI", targets: ["GeminiKitAPI"])],
     targets: [
-        .target(name: "GeminiKit",dependencies: [], path: "Sources/GeminiKit")
+        .target(name: "GeminiKitAPI", dependencies: [], path: "Sources/GeminiKit")
     ]
 )
