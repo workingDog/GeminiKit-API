@@ -1,4 +1,4 @@
-# GeminiKit-API
+# GeminiKitAPI
 
 
 ## Original code
@@ -18,7 +18,7 @@ Also minor mods to compile the Package with swift 6.2
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/workingDog/GeminiKit-API", from: "1.0.0")
+    .package(url: "https://github.com/workingDog/GeminiKitAPI", from: "1.0.0")
 ]
 ```
 
