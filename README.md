@@ -11,14 +11,14 @@ See [GeminiKit](https://github.com/guitaripod/GeminiKit) "A comprehensive Swift 
 ## Amendments
 
 Removed all CLI code, external dependencies, and restructured "GeminiModel" to a struct.
-Also minor mods to compile the Package with swift 6.2
+Also minor modifications to compile the package with swift 6.2
 
 ## Installation
 
 ### Swift Package Manager
 ```swift
 dependencies: [
-    .package(url: "https://github.com/workingDog/GeminiKitAPI", from: "1.0.0")
+    .package(url: "https://github.com/workingDog/GeminiKitAPI", branch: "main")
 ]
 ```
 
